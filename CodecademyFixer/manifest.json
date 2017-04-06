@@ -8,6 +8,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
+    "js": ["jquery-3.2.0.min.js"],
     "matches": ["https://www.codecademy.com/*"]
   }]
 
