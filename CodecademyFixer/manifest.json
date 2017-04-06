@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Codecademy Fixer",
+  "version": "0.1.0",
+  "description": "Makes Codecademy have a more unified UI (better for color inversion).",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.codecademy.com/*"]
+  }]
+
+}
